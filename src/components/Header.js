@@ -3,7 +3,6 @@ import styled from "styled-components";
 import { Link, useHistory } from "react-router-dom";
 import {
   selectUserName,
-  selectUserPhoto,
   setUserLogin,
   setSignOut,
 } from "../features/user/userSlice";
