@@ -14,7 +14,7 @@ function Header() {
   const dispatch = useDispatch();
   const history = useHistory();
   const userName = useSelector(selectUserName);
-  const userPhoto = useSelector(selectUserPhoto);
+  // const userPhoto = useSelector(selectUserPhoto);
 
   useEffect(() => {
     auth.onAuthStateChanged(async (user) => {
